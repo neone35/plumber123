@@ -28,7 +28,8 @@
         "wpackagist-plugin/wp-smushit": "^2.8",
         "koodimonni-language/core-ru_ru": "^4.9",
         "wpackagist-plugin/so-widgets-bundle": "^1.13",
-        "wpackagist-plugin/siteorigin-panels": "^2.8"
+        "wpackagist-plugin/siteorigin-panels": "^2.8",
+        "wpackagist-plugin/fakerpress": "^0.4.11"
     },
     "repositories": [
         {

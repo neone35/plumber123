@@ -1187,6 +1187,28 @@
         "homepage": "https://wordpress.org/plugins/duplicate-post/"
     },
     {
+        "name": "wpackagist-plugin/fakerpress",
+        "version": "0.4.11",
+        "version_normalized": "0.4.11.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/fakerpress/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/fakerpress.zip?timestamp=1521872725",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/fakerpress/"
+    },
+    {
         "name": "wpackagist-plugin/flamingo",
         "version": "1.9",
         "version_normalized": "1.9.0.0",
