@@ -1,0 +1,23 @@
+.customize-control-siteorigin-font {
+  padding-bottom: 5px; }
+  .customize-control-siteorigin-font .font-wrapper {
+    height: 24px;
+    margin-bottom: 5px; }
+    .customize-control-siteorigin-font .font-wrapper select {
+      width: 100%; }
+  .customize-control-siteorigin-font .field-wrapper {
+    margin-bottom: 2px; }
+    .customize-control-siteorigin-font .field-wrapper label {
+      display: block;
+      float: left;
+      width: 25%;
+      font-size: 0.8em;
+      font-weight: bold;
+      margin-top: 7px; }
+    .customize-control-siteorigin-font .field-wrapper select {
+      padding: 2px;
+      font-size: 0.8em; }
+  .customize-control-siteorigin-font .chosen-drop {
+    z-index: 1100; }
+  .customize-control-siteorigin-font .chosen-container {
+    position: absolute; }

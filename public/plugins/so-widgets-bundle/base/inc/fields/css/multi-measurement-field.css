@@ -1,0 +1,19 @@
+.siteorigin-widget-form .siteorigin-widget-field .sow-multi-measurement-container {
+  display: flex;
+}
+.siteorigin-widget-form .siteorigin-widget-field .sow-multi-measurement-container .sow-multi-measurement-input-container:not(:first-child) {
+  margin-left: 10px;
+}
+.siteorigin-widget-form .siteorigin-widget-field .sow-multi-measurement-container .sow-multi-measurement-input-container > label {
+  padding-left: 5px;
+}
+.siteorigin-widget-form .siteorigin-widget-field .sow-multi-measurement-container .sow-multi-measurement-input-container input[type="text"].sow-multi-measurement-input {
+  float: left;
+  max-width: 58px;
+  margin: 1px;
+  height: 28px;
+  vertical-align: middle;
+}
+.siteorigin-widget-form .siteorigin-widget-field .sow-multi-measurement-container .sow-multi-measurement-input-container select.sow-multi-measurement-select-unit {
+  min-width: inherit;
+}

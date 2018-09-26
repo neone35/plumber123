@@ -1,0 +1,23 @@
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range > div {
+  display: inline-block;
+  margin-right: 5px;
+}
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range > div span {
+  display: inline-block;
+  width: 35px;
+}
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range > div span:last-child {
+  margin-left: 10px;
+}
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range > div input[type="text"].datepicker {
+  width: 258px;
+}
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range .sowb-relative-date > input {
+  max-width: 100px;
+}
+.siteorigin-widget-form .siteorigin-widget-field-type-date-range .sowb-relative-date > select {
+  min-width: inherit;
+}
+.pika-single {
+  z-index: 999999;
+}

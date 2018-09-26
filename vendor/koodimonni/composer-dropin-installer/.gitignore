@@ -1,0 +1,11 @@
+/vendor/
+composer.lock
+
+# Stuff from tests
+tests/htdocs
+tests/move/htdocs
+tests/copy/htdocs
+tests/move/vendor
+tests/copy/vendor
+tests/move/composer.lock
+tests/copy/composer.lock

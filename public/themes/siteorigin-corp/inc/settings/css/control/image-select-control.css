@@ -1,0 +1,44 @@
+.customize-control-siteorigin-image-select select {
+  display: none; }
+
+.customize-control-siteorigin-image-select .image-options {
+  margin-top: 10px; }
+  .customize-control-siteorigin-image-select .image-options label {
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    right: 15%;
+    left: 15%;
+    background: #23282d;
+    background: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+    padding: 15px 10px;
+    text-align: center;
+    border-radius: 3px;
+    opacity: 0;
+    z-index: 5; }
+  .customize-control-siteorigin-image-select .image-options img {
+    display: block;
+    opacity: 1; }
+  .customize-control-siteorigin-image-select .image-options li {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 7px;
+    padding: 5px;
+    border: 1px solid #d9d9d9;
+    background: #fafafa;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+    .customize-control-siteorigin-image-select .image-options li:last-child {
+      margin-bottom: 0px; }
+    .customize-control-siteorigin-image-select .image-options li:hover label {
+      opacity: 1; }
+    .customize-control-siteorigin-image-select .image-options li:hover img {
+      opacity: 0.5; }
+    .customize-control-siteorigin-image-select .image-options li.active {
+      border-color: #0073aa;
+      background: #0091cd; }

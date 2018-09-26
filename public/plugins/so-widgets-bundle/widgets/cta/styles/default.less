@@ -1,0 +1,70 @@
+@import "../../../base/less/mixins";
+
+.widget-function('import_google_font');
+
+@border_color: default;
+@background_color: default;
+@title_color: default;
+@title_font_family: default;
+@title_font_weight: default;
+@title_font_size: default;
+@subtitle_color: default;
+@subtitle_font_family: default;
+@subtitle_font_weight: default;
+@subtitle_font_size: default;
+
+.sow-cta-base {
+	& when ( iscolor( @border_color ) ) {
+		border: 1px solid @border_color;
+	}
+	& when ( iscolor( @background_color ) ) {
+		background-color: @background_color;
+	}
+
+	.sow-cta-text {
+		.sow-cta- {
+			&title {
+				color: @title_color;
+				font-family: @title_font_family;
+				font-weight: @title_font_weight;
+				font-size: @title_font_size;
+			}
+
+			&subtitle {
+				color: @subtitle_color;
+				font-family: @subtitle_font_family;
+				font-weight: @subtitle_font_weight;
+				font-size: @subtitle_font_size;
+			}
+		}
+	}
+}
+@button_align: right;
+
+.sow-cta-base {
+	& when ( @button_align = right ) {
+		.sow-cta-text {
+			float: left;
+		}
+	}
+
+	& when ( @button_align = left ) {
+		.sow-cta-text {
+			float: right;
+		}
+	}
+
+	& when ( @button_align = right ) {
+		.so-widget-sow-button {
+			float: right;
+			margin-left: 1em;
+		}
+	}
+
+	& when ( @button_align = left ) {
+		.so-widget-sow-button {
+			float: left;
+			margin-right: 1em;
+		}
+	}
+}

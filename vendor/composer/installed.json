@@ -430,6 +430,97 @@
         ]
     },
     {
+        "name": "koodimonni-language/core-lt_lt",
+        "version": "4.9.6",
+        "version_normalized": "4.9.6.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/translation/core/4.9.6/lt_LT.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "koodimonni/composer-dropin-installer": ">=0.2.3"
+        },
+        "type": "wordpress-language",
+        "installation-source": "dist",
+        "description": "Wordpress core translation for Lithuanian - lt_lt",
+        "keywords": [
+            "Translation",
+            "Wordpress",
+            "core",
+            "lt_lt"
+        ]
+    },
+    {
+        "name": "koodimonni-language/core-ru_ru",
+        "version": "4.9.8",
+        "version_normalized": "4.9.8.0",
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/translation/core/4.9.8/ru_RU.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "koodimonni/composer-dropin-installer": ">=0.2.3"
+        },
+        "type": "wordpress-language",
+        "installation-source": "dist",
+        "description": "Wordpress core translation for Russian - ru_ru",
+        "keywords": [
+            "Translation",
+            "Wordpress",
+            "core",
+            "ru_ru"
+        ]
+    },
+    {
+        "name": "koodimonni/composer-dropin-installer",
+        "version": "1.2",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
+            "reference": "a749f19e3a3bc05529190961ed7529592b20138e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/a749f19e3a3bc05529190961ed7529592b20138e",
+            "reference": "a749f19e3a3bc05529190961ed7529592b20138e",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "3.7.*-dev"
+        },
+        "time": "2018-02-04T10:52:01+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Koodimonni\\Composer\\Dropin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Koodimonni\\Composer\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "WTFPL"
+        ],
+        "authors": [
+            {
+                "name": "Onni Hakala",
+                "email": "onni@koodimonni.fi",
+                "role": "Developer"
+            }
+        ],
+        "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff."
+    },
+    {
         "name": "paragonie/random_compat",
         "version": "v1.4.3",
         "version_normalized": "1.4.3.0",
@@ -561,50 +652,6 @@
             "guid",
             "identifier",
             "uuid"
-        ]
-    },
-    {
-        "name": "roots/sage",
-        "version": "8.5.4",
-        "version_normalized": "8.5.4.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/roots/sage.git",
-            "reference": "50f02e1024784b603ad9f7868aa42f1987d61819"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/roots/sage/zipball/50f02e1024784b603ad9f7868aa42f1987d61819",
-            "reference": "50f02e1024784b603ad9f7868aa42f1987d61819",
-            "shasum": ""
-        },
-        "require": {
-            "composer/installers": "~1.0",
-            "php": ">=5.4.0"
-        },
-        "time": "2018-02-15T23:48:15+00:00",
-        "type": "wordpress-theme",
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Scott Walkinshaw",
-                "email": "scott.walkinshaw@gmail.com",
-                "homepage": "https://github.com/swalkinshaw"
-            },
-            {
-                "name": "Ben Word",
-                "email": "ben@benword.com",
-                "homepage": "https://github.com/retlehs"
-            }
-        ],
-        "description": "The best WordPress starter theme with a modern front-end development workflow. Based on HTML5 Boilerplate, gulp, Bower, and Bootstrap.",
-        "homepage": "https://roots.io/sage/",
-        "keywords": [
-            "wordpress"
         ]
     },
     {
@@ -980,103 +1027,6 @@
         ]
     },
     {
-        "name": "wordplate/mail",
-        "version": "1.0.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/wordplate/mail.git",
-            "reference": "29e1e6347607cf21617283a0f3bd297ec424e635"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/wordplate/mail/zipball/29e1e6347607cf21617283a0f3bd297ec424e635",
-            "reference": "29e1e6347607cf21617283a0f3bd297ec424e635",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9 || ^7.0",
-            "wordplate/framework": "^4.0"
-        },
-        "time": "2016-05-03T09:13:56+00:00",
-        "type": "wordpress-plugin",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "1.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Vincent Klaiber",
-                "email": "hello@vinkla.com"
-            },
-            {
-                "name": "Chris Andersson",
-                "email": "hello@puredazzle.se"
-            }
-        ],
-        "description": "A mail plugin for WordPlate",
-        "keywords": [
-            "mail",
-            "plugin",
-            "wordplate",
-            "wordpress"
-        ]
-    },
-    {
-        "name": "wordplate/plate",
-        "version": "2.0.1",
-        "version_normalized": "2.0.1.0",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/wordplate/plate.git",
-            "reference": "e42f8e1b04be8cf3bb8df5815b021b5487f377c5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/wordplate/plate/zipball/e42f8e1b04be8cf3bb8df5815b021b5487f377c5",
-            "reference": "e42f8e1b04be8cf3bb8df5815b021b5487f377c5",
-            "shasum": ""
-        },
-        "require": {
-            "php": "^5.5.9 || ^7.0"
-        },
-        "time": "2016-05-20T13:13:57+00:00",
-        "type": "wordpress-plugin",
-        "extra": {
-            "branch-alias": {
-                "dev-master": "2.0-dev"
-            }
-        },
-        "installation-source": "dist",
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "MIT"
-        ],
-        "authors": [
-            {
-                "name": "Vincent Klaiber",
-                "email": "hello@vinkla.com"
-            },
-            {
-                "name": "Chris Andersson",
-                "email": "hello@puredazzle.se"
-            }
-        ],
-        "description": "A framework plugin for WordPlate",
-        "keywords": [
-            "plate",
-            "plugin",
-            "wordplate",
-            "wordpress"
-        ]
-    },
-    {
         "name": "wordplate/uuid",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
@@ -1127,17 +1077,17 @@
         "abandoned": "https://github.com/rmccue/realguids"
     },
     {
-        "name": "wpackagist-plugin/disable-embeds",
-        "version": "1.3.0",
-        "version_normalized": "1.3.0.0",
+        "name": "wpackagist-plugin/akismet",
+        "version": "4.0.8",
+        "version_normalized": "4.0.8.0",
         "source": {
             "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/disable-embeds/",
-            "reference": "trunk"
+            "url": "https://plugins.svn.wordpress.org/akismet/",
+            "reference": "tags/4.0.8"
         },
         "dist": {
             "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/disable-embeds.zip?timestamp=1522053177",
+            "url": "https://downloads.wordpress.org/plugin/akismet.4.0.8.zip",
             "reference": null,
             "shasum": null
         },
@@ -1146,7 +1096,51 @@
         },
         "type": "wordpress-plugin",
         "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/disable-embeds/"
+        "homepage": "https://wordpress.org/plugins/akismet/"
+    },
+    {
+        "name": "wpackagist-plugin/bogo",
+        "version": "3.2",
+        "version_normalized": "3.2.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/bogo/",
+            "reference": "tags/3.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/bogo.3.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/bogo/"
+    },
+    {
+        "name": "wpackagist-plugin/contact-form-7",
+        "version": "5.0.4",
+        "version_normalized": "5.0.4.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/contact-form-7/",
+            "reference": "tags/5.0.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/contact-form-7.5.0.4.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/contact-form-7/"
     },
     {
         "name": "wpackagist-plugin/disable-emojis",
@@ -1171,17 +1165,17 @@
         "homepage": "https://wordpress.org/plugins/disable-emojis/"
     },
     {
-        "name": "wpackagist-plugin/email-log",
-        "version": "2.2.5",
-        "version_normalized": "2.2.5.0",
+        "name": "wpackagist-plugin/duplicate-post",
+        "version": "3.2.2",
+        "version_normalized": "3.2.2.0",
         "source": {
             "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/email-log/",
-            "reference": "tags/2.2.5"
+            "url": "https://plugins.svn.wordpress.org/duplicate-post/",
+            "reference": "tags/3.2.2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/email-log.2.2.5.zip",
+            "url": "https://downloads.wordpress.org/plugin/duplicate-post.3.2.2.zip",
             "reference": null,
             "shasum": null
         },
@@ -1190,7 +1184,51 @@
         },
         "type": "wordpress-plugin",
         "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/email-log/"
+        "homepage": "https://wordpress.org/plugins/duplicate-post/"
+    },
+    {
+        "name": "wpackagist-plugin/flamingo",
+        "version": "1.9",
+        "version_normalized": "1.9.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/flamingo/",
+            "reference": "tags/1.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/flamingo.1.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/flamingo/"
+    },
+    {
+        "name": "wpackagist-plugin/google-sitemap-generator",
+        "version": "4.0.9",
+        "version_normalized": "4.0.9.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
+            "reference": "tags/4.0.9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.9.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
     },
     {
         "name": "wpackagist-plugin/hide-updates",
@@ -1213,6 +1251,28 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/hide-updates/"
+    },
+    {
+        "name": "wpackagist-plugin/jetpack",
+        "version": "6.5",
+        "version_normalized": "6.5.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/jetpack/",
+            "reference": "tags/6.5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/jetpack.6.5.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/jetpack/"
     },
     {
         "name": "wpackagist-plugin/shortcode-ui",
@@ -1257,6 +1317,72 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
+    },
+    {
+        "name": "wpackagist-plugin/siteorigin-panels",
+        "version": "2.8.2",
+        "version_normalized": "2.8.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/siteorigin-panels/",
+            "reference": "tags/2.8.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/siteorigin-panels.2.8.2.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/siteorigin-panels/"
+    },
+    {
+        "name": "wpackagist-plugin/so-widgets-bundle",
+        "version": "1.13.0",
+        "version_normalized": "1.13.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/so-widgets-bundle/",
+            "reference": "tags/1.13.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/so-widgets-bundle.1.13.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/so-widgets-bundle/"
+    },
+    {
+        "name": "wpackagist-plugin/tinymce-advanced",
+        "version": "4.8.0",
+        "version_normalized": "4.8.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/tinymce-advanced/",
+            "reference": "tags/4.8.0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/tinymce-advanced.4.8.0.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/tinymce-advanced/"
     },
     {
         "name": "wpackagist-plugin/wordpress-seo",
@@ -1323,6 +1449,28 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/wp-migrate-db/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-smushit",
+        "version": "2.8.1",
+        "version_normalized": "2.8.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-smushit/",
+            "reference": "tags/2.8.1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-smushit.2.8.1.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-smushit/"
     },
     {
         "name": "wpackagist-theme/carpenter-lite",

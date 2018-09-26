@@ -1,0 +1,215 @@
+#siteorigin-about-page {
+  margin-left: 0;
+  margin-right: 0; }
+  #siteorigin-about-page .about-container {
+    box-sizing: border-box;
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative; }
+  #siteorigin-about-page .top-area-tabs {
+    position: fixed;
+    top: 32px;
+    right: 40px;
+    z-index: 10;
+    margin: 0;
+    padding: 0; }
+    #siteorigin-about-page .top-area-tabs li {
+      float: left;
+      display: block;
+      margin-right: 5px;
+      margin-top: 7px; }
+      #siteorigin-about-page .top-area-tabs li a {
+        text-decoration: none;
+        line-height: 1em;
+        padding: 8px 16px;
+        background-color: #fff;
+        border: 1px solid #c0c0c0;
+        border-top: 0;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075); }
+        #siteorigin-about-page .top-area-tabs li a .dashicons {
+          margin: -1px 4px 0 -4px;
+          color: #666; }
+        #siteorigin-about-page .top-area-tabs li a:hover .dashicons {
+          color: #333; }
+      #siteorigin-about-page .top-area-tabs li:last-child {
+        margin-right: 0; }
+      #siteorigin-about-page .top-area-tabs li.about-highlight a {
+        font-weight: bold;
+        background-color: #f5d382;
+        border-color: #846a29;
+        color: #121212;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125); }
+        #siteorigin-about-page .top-area-tabs li.about-highlight a .dashicons {
+          margin: -1px 4px 0 0;
+          color: #121212; }
+    @media screen and (max-width: 782px) {
+      #siteorigin-about-page .top-area-tabs {
+        display: block;
+        position: static;
+        overflow: auto;
+        margin: -10px 0 0 0;
+        background-color: #eaeaea;
+        text-align: center;
+        padding: 20px; }
+        #siteorigin-about-page .top-area-tabs li {
+          margin: 0;
+          display: inline-block;
+          float: none; }
+          #siteorigin-about-page .top-area-tabs li a {
+            border-top: 1px solid #c0c0c0; } }
+  #siteorigin-about-page .about-header {
+    background-color: #eaeaea;
+    margin: -10px 0 20px -21px;
+    padding: 50px 20px 35px 20px;
+    border-bottom: 1px solid #d0d0d0;
+    text-align: center;
+    position: relative; }
+    #siteorigin-about-page .about-header h1 {
+      font-weight: 300;
+      font-size: 26px;
+      line-height: 1em;
+      margin: 0;
+      padding: 0; }
+    #siteorigin-about-page .about-header .version {
+      font-weight: 300;
+      display: inline-block;
+      font-size: 12px;
+      position: absolute;
+      padding: 3px 5px;
+      background: #fff;
+      line-height: 1em;
+      margin-left: 5px;
+      color: #0073aa;
+      border-radius: 2px;
+      top: -0.5em;
+      left: 105%; }
+    #siteorigin-about-page .about-header .title-image-wrapper {
+      display: inline-block;
+      position: relative; }
+      #siteorigin-about-page .about-header .title-image-wrapper img {
+        display: block; }
+  #siteorigin-about-page .about-video {
+    background-color: #f4f4f4;
+    margin: -20px 0 30px -21px;
+    padding: 30px 22px;
+    border-bottom: 1px solid #e0e0e0; }
+    #siteorigin-about-page .about-video .about-play-video {
+      top: 0;
+      left: 0;
+      width: 640px;
+      height: 359.99996px;
+      position: absolute;
+      z-index: 2;
+      display: block; }
+      #siteorigin-about-page .about-video .about-play-video svg {
+        position: absolute;
+        bottom: 15px;
+        left: 20px;
+        width: 80px; }
+        #siteorigin-about-page .about-video .about-play-video svg .st0 {
+          opacity: 0.5;
+          fill: #000000; }
+        #siteorigin-about-page .about-video .about-play-video svg .st1 {
+          fill: #FFFFFF; }
+      #siteorigin-about-page .about-video .about-play-video:hover svg .st0 {
+        opacity: 0.75;
+        fill: #09adef; }
+    #siteorigin-about-page .about-video .about-video-images {
+      width: 640px;
+      height: 359.99996px;
+      display: block; }
+      #siteorigin-about-page .about-video .about-video-images .about-video-image {
+        top: 0;
+        left: 0;
+        width: 640px;
+        height: 359.99996px;
+        position: absolute;
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center top; }
+    #siteorigin-about-page .about-video .about-video-watch {
+      margin-top: 5px;
+      text-align: center;
+      font-weight: bold; }
+      #siteorigin-about-page .about-video .about-video-watch a {
+        text-decoration: none; }
+        #siteorigin-about-page .about-video .about-video-watch a:hover {
+          text-decoration: underline; }
+    #siteorigin-about-page .about-video .about-video-description {
+      text-align: center;
+      margin-top: 25px; }
+    #siteorigin-about-page .about-video .about-share {
+      text-align: center;
+      margin-top: 20px; }
+      #siteorigin-about-page .about-video .about-share .about-share-title {
+        font-size: 0.9em;
+        line-height: 1em;
+        margin-bottom: 0.75em;
+        font-weight: bold;
+        color: #444; }
+      #siteorigin-about-page .about-video .about-share a {
+        display: inline-block;
+        text-decoration: none;
+        border-radius: 3px;
+        padding: 5px; }
+        #siteorigin-about-page .about-video .about-share a.about-share-facebook {
+          background: #4d70a8; }
+          #siteorigin-about-page .about-video .about-share a.about-share-facebook:hover {
+            background: #5577af; }
+        #siteorigin-about-page .about-video .about-share a.about-share-twitter {
+          background: #00bbf2; }
+          #siteorigin-about-page .about-video .about-share a.about-share-twitter:hover {
+            background: #25c4fb; }
+        #siteorigin-about-page .about-video .about-share a.about-share-googleplus {
+          background: #e3401d; }
+          #siteorigin-about-page .about-video .about-share a.about-share-googleplus:hover {
+            background: #ec4a23; }
+        #siteorigin-about-page .about-video .about-share a .dashicons {
+          color: #fff;
+          font-size: 18px;
+          width: 18px;
+          height: 18px; }
+  #siteorigin-about-page .about-sections {
+    margin-left: -21px;
+    padding: 0 20px; }
+    #siteorigin-about-page .about-sections .about-container {
+      max-width: 1024px; }
+    #siteorigin-about-page .about-sections .about-section {
+      border-radius: 2px;
+      background: #fafafa;
+      padding: 30px;
+      border: 1px solid #d8d8d8;
+      margin-bottom: 25px; }
+      #siteorigin-about-page .about-sections .about-section h3 {
+        margin-bottom: 25px; }
+      #siteorigin-about-page .about-sections .about-section > *:first-child {
+        margin-top: 0; }
+      #siteorigin-about-page .about-sections .about-section > *:last-child {
+        margin-bottom: 0; }
+      #siteorigin-about-page .about-sections .about-section .about-image-right {
+        float: right;
+        margin: 0 0 1em 2em; }
+      #siteorigin-about-page .about-sections .about-section .about-image-left {
+        float: left;
+        margin: 0 2em 1em 0; }
+      #siteorigin-about-page .about-sections .about-section .about-image-no-text-below {
+        margin-bottom: 0; }
+      #siteorigin-about-page .about-sections .about-section p:after {
+        content: "";
+        display: table;
+        clear: both; }
+  #siteorigin-about-page .about-siteorigin-logo {
+    margin-top: 60px;
+    text-align: center; }
+    #siteorigin-about-page .about-siteorigin-logo p {
+      line-height: 1em;
+      font-size: 0.7em;
+      color: #999;
+      margin-bottom: 8px; }
+    #siteorigin-about-page .about-siteorigin-logo img {
+      opacity: 0.75;
+      height: 26px;
+      width: auto; }
+
+.notice {
+  margin: 40px 21px 20px 0 !important; }

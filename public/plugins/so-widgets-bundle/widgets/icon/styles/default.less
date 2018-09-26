@@ -1,0 +1,17 @@
+@color: #000000;
+@size: '';
+@alignment: center;
+
+.sow-icon {
+	text-align: @alignment;
+}
+
+.sow-icon span,
+.sow-icon a span {
+	display: inline-block;
+	color: @color !important;
+
+	& when ( isnumber( @size ) ) {
+		font-size: @size !important;
+	}
+}
