@@ -52,6 +52,8 @@ define('IMAGE_EDIT_OVERWRITE', env('IMAGE_EDIT_OVERWRITE', true));
 /* Prevent file edit from the dashboard. */
 define('DISALLOW_FILE_EDIT', env('DISALLOW_FILE_EDIT', true));
 
+define( 'WP_MEMORY_LIMIT', '256M' );
+
 /**#@+
  * Authentication Unique Keys and Salts.
  *
