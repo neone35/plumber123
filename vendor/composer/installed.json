@@ -1259,6 +1259,50 @@
         "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
     },
     {
+        "name": "wpackagist-plugin/wordpress-seo",
+        "version": "8.3",
+        "version_normalized": "8.3.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+            "reference": "tags/8.3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wordpress-seo.8.3.zip",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+    },
+    {
+        "name": "wpackagist-plugin/wp-maintenance-mode",
+        "version": "2.2.1",
+        "version_normalized": "2.2.1.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.zip?timestamp=1531728264",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
+    },
+    {
         "name": "wpackagist-plugin/wp-migrate-db",
         "version": "1.0.4",
         "version_normalized": "1.0.4.0",

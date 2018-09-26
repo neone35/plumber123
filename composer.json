@@ -18,7 +18,9 @@
         "wpackagist-theme/carpenter-lite": "^1.1",
         "roots/sage": "^8.5",
         "wpackagist-plugin/shortcode-ui": "^0.7.3",
-        "wpackagist-plugin/shortcodes-ultimate": "^5.0"
+        "wpackagist-plugin/shortcodes-ultimate": "^5.0",
+        "wpackagist-plugin/wordpress-seo": "^8.3",
+        "wpackagist-plugin/wp-maintenance-mode": "^2.2"
     },
     "repositories": [
         {

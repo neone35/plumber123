@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3995b0448aa33ae0c5026131077007d9",
+    "content-hash": "ebb2f85025ef862381a0624f1881cf70",
     "packages": [
         {
             "name": "composer/installers",
@@ -1214,6 +1214,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/shortcodes-ultimate/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "8.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.8.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-maintenance-mode",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-maintenance-mode/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-maintenance-mode.zip?timestamp=1531728264",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-maintenance-mode/"
         },
         {
             "name": "wpackagist-plugin/wp-migrate-db",
