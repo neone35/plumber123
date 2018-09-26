@@ -1,0 +1,663 @@
+/* Mobile Portrait View */
+
+@media screen and (max-width: 479px) {
+    * {
+        box-sizing: border-box;
+    }
+	#slider{
+		margin-top:20px;
+	}
+	#slider .top-bar{
+		text-align:center;
+	}
+    .nivo-controlNav{ 
+		display:none !important;
+	}
+	.nivo-caption {
+    	width: 95% !important;
+   	 	bottom: 32px !important;
+    	padding: 10px;
+		left:0 !important;
+		background-color:transparent !important;
+	}
+	.nivo-caption p {
+		display: none !important;
+	}
+	.nivo-caption .button {
+		font-size:12px;
+		padding:3px 5px;
+	}
+	.nivo-caption h2 {
+		font-size: 13px !important;
+		line-height: 32px !important;
+		text-align: center;
+		margin-bottom: 15px;
+		padding:0 !important;
+	}
+	.nivo-caption .slide-button{
+		padding:5px 15px !important;
+	}
+    .container {
+        width: 95%;
+    }
+	/* Header Css */
+	
+    #header { 
+		width:100%; 
+		padding:0; 
+		position:inherit !important; 
+		margin-top:0;
+	}
+	.header-inner { 
+		width:95%; 
+		padding-bottom:0; 
+		border-bottom:none;
+	}
+	#header .logo { 
+		text-align:center; 
+		position:relative; 
+		top:0;
+		float:none;
+		margin-bottom:20px;
+	}
+	.header_right .right-box {
+		float: none;
+		width: 240px;
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	.header_right{
+		float:none;
+	}
+	.sitenav{
+		display:none;
+	}
+	.sitenav{
+		float:none; 
+		margin:0; 
+		position:relative; 
+		overflow-x:hidden; 
+	}
+	.sitenav ul{
+		background:#000000; 
+		color:#000; 
+		width:100%; 
+		float:none !important; 
+		margin-left:0;
+	}
+	.sitenav ul li{
+		border-top:1px #303030 solid; 
+		display:block; 
+		float:none; 
+		text-align:left;
+	}
+	.sitenav ul li a{
+		padding:5px 10px; 
+		display:block; 
+		color:#ffffff !important;
+	}
+	.sitenav ul li ul, .nav ul li ul ul{ 
+		display:block !important;
+	}
+	#header .header-inner .sitenav ul li:hover ul { 
+		background:none;
+	}
+	.sitenav ul li ul li a:before{
+		content:"\00BB \00a0";
+	}
+	.sitenav ul li ul li a{
+		padding-left:20px !important;
+	}
+	.sitenav ul li ul li ul li a{
+		padding-left:30px !important;
+	}
+    /* ------ Extra ------ */
+    
+    #sitemain iframe {
+        max-width: 100%;
+        height: auto;
+    }
+    /* --------- Pages ------- */
+    
+    .content-area {
+        width: 95%;
+        margin: 0 auto;
+        padding: 50px 0;
+    }
+    .site-main {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        margin: 60px 0 0;
+        padding: 0;
+        float: none;
+    }
+    .nivo-directionNav a {
+        top: 36% !important;
+    }
+	section{
+		padding:0;
+	}
+	.pagearea-inner{ 
+		position:inherit; 
+		top:0; 
+		margin-top:20px;
+	}
+	.services-box{ 
+		width:100%; 
+		margin:0 0 20px; 
+		border-right:none;
+	}
+}
+/* Mobile Landscape View */
+
+@media screen and (max-width: 719px) and (min-width: 480px) {
+    * {
+        box-sizing: border-box;
+    }
+	#slider{
+		margin-top:20px;
+	}
+	#slider .top-bar{
+		text-align:center;
+	}
+    .nivo-controlNav{ 
+		display:none !important;
+	}
+	.nivo-caption {
+    	width: 95% !important;
+   	 	bottom: 42px !important;
+    	padding: 10px;
+		left:0 !important;
+		background-color:transparent !important;
+	}
+	.nivo-caption p {
+		display: none !important;
+	}
+	.nivo-caption .button {
+		font-size:12px;
+		padding:3px 5px;
+	}
+	.nivo-caption h2 {
+		font-size: 16px !important;
+		line-height: 32px !important;
+		text-align: center;
+		margin-bottom: 15px;
+		padding:0 !important;
+	}
+	.nivo-caption .slide-button{
+		padding:5px 15px !important;
+	}
+    .container {
+        width: 95%;
+    }
+	/* Header Css */
+	
+    #header { 
+		width:100%; 
+		padding:0; 
+		position:inherit !important; 
+		margin-top:0;
+	}
+	.header-inner { 
+		width:95%; 
+		padding-bottom:0; 
+		border-bottom:none;
+	}
+    #header .logo { 
+		text-align:center; 
+		position:relative; 
+		top:0;
+		float:none;
+		margin-bottom:20px;
+	}
+	.header_right .right-box {
+		float: none;
+		width: 240px;
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	.header_right{
+		float:none;
+	}
+    .sitenav{
+		display:none;
+	}
+	.sitenav{
+		float:none; 
+		margin:0; 
+		position:relative; 
+		overflow-x:hidden; 
+	}
+	.sitenav ul{
+		background:#000000; 
+		color:#000; 
+		width:100%; 
+		float:none !important; 
+		margin-left:0;
+	}
+	.sitenav ul li{
+		border-top:1px #303030 solid; 
+		display:block; 
+		float:none; 
+		text-align:left;
+	}
+	.sitenav ul li a{
+		padding:5px 10px; 
+		display:block; 
+		color:#ffffff !important;
+	}
+	.sitenav ul li ul, .nav ul li ul ul{ 
+		display:block !important;
+	}
+	#header .header-inner .sitenav ul li:hover ul { 
+		background:none;
+	}
+	.sitenav ul li ul li a:before{
+		content:"\00BB \00a0";
+	}
+	.sitenav ul li ul li a{
+		padding-left:20px !important;
+	}
+	.sitenav ul li ul li ul li a{
+		padding-left:30px !important;
+	}
+    /* ------ Extra ------ */
+    
+    #sitemain iframe {
+        max-width: 100%;
+        height: auto;
+    }
+    /* --------- Pages ------- */
+    
+    .content-area {
+        width: auto;
+        margin: 0 20px;
+        padding: 50px 0;
+    }
+    .site-main {
+        width: auto;
+        margin: 0;
+        padding: 0;
+        float: none;
+    }
+    #sidebar {
+        width: auto;
+        margin: 60px 0 0;
+        padding: 0;
+        float: none;
+    }
+    .nivo-directionNav a {
+        top: 36% !important;
+    }
+	.pagearea-inner{ 
+		position:inherit; 
+		top:0; 
+		margin-top:20px;
+	}
+	section{
+		padding:0;
+	}
+	h2.section_title{
+		font-size:30px;
+	}
+	.services-box{ 
+		width:100%; 
+		margin:0 0 20px; 
+		border-right:none;
+	}
+}
+@media screen and (max-width: 899px) and (min-width: 320px) {
+    h2.section-title {
+        line-height: 48px;
+        font-size: 35px !important;
+    }
+    .cat_comments {
+        height: auto;
+    }
+}
+/* Tablet View */
+
+@media screen and (max-width: 999px) and (min-width: 720px) {
+    * {
+        box-sizing: border-box;
+    }
+    .pagearea-inner { 
+		top:-90px !important;
+	}
+	#slider{
+		margin-top:20px;
+	}
+	.nivo-caption {
+    	width: 70% !important;
+		bottom:18% !important;
+		background-color:transparent !important;
+	}
+	#slider .top-bar h2{
+		font-size:22px;
+	}
+	#slider .top-bar p{
+		font-size:11px;
+		line-height:normal;
+	}
+    .container {
+        width: 95%;
+    }
+	
+    #header { 
+		width:100%; 
+		padding:0; 
+		position:inherit !important; 
+		margin-top:0;
+	}
+	.header-inner { 
+		width:95%; 
+		padding-bottom:0; 
+		border-bottom:none;
+	}
+	#header .logo { 
+		text-align:center; 
+		position:relative; 
+		top:0;
+		float:none;
+		margin-bottom:20px;
+	}
+	.header_right .right-box {
+		float: none;
+		width: 240px;
+		text-align: center;
+		margin: 0 auto 20px;
+	}
+	.header_right{
+		float:none;
+	}
+    .sitenav{
+		display:none;
+	}
+	.sitenav{
+		float:none; 
+		margin:0; 
+		position:relative; 
+		overflow-x:hidden; 
+	}
+	.sitenav ul{
+		background:#000000; 
+		color:#000; 
+		width:100%; 
+		float:none !important; 
+		margin-left:0;
+	}
+	.sitenav ul li{
+		border-top:1px #303030 solid; 
+		display:block; 
+		float:none; 
+		text-align:left;
+	}
+	.sitenav ul li a{
+		padding:5px 10px; 
+		display:block; 
+		color:#ffffff !important;
+	}
+	.sitenav ul li ul, .nav ul li ul ul{ 
+		display:block !important;
+	}
+	#header .header-inner .sitenav ul li:hover ul { 
+		background:none;
+	}
+	.sitenav ul li ul li a:before{
+		content:"\00BB \00a0";
+	}
+	.sitenav ul li ul li a{
+		padding-left:20px !important;
+	}
+	.sitenav ul li ul li ul li a{
+		padding-left:30px !important;
+	}
+    /* --------- Pages ------- */
+    
+    .content-area {
+        width: auto;
+        margin: 0 20px;
+        padding: 50px 0;
+    }
+    .site-main {
+        width: 60%;
+        margin: 0;
+        padding: 0;
+        float: left;
+    }
+    #sidebar {
+        width: 35%;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+	
+	section{
+		padding-bottom:0;
+	}
+	.services-box{ 
+		width:33%; 
+		margin:0 0 20px; 
+		border-right:none; 
+	}
+}
+@media screen and (min-width: 1000px) {
+    .sitenav ul li ul li {
+        display: block;
+        position: relative;
+        float: none;
+    }
+    .sitenav ul li ul li a {
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px #313131 solid;
+    }
+    .site-main {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 981px) and (max-width: 1159px) {
+    .top-inner, .header-inner, .container {
+        width: 95%;
+    }
+	.sitenav ul{
+		font-size:10px;
+	}
+	.sitenav ul li:hover > ul{
+		top:40px;
+	}
+    .nivo-caption {
+        top: 17% !important;
+        height: auto !important;
+    }
+    .cat_comments {
+        left: 35px;
+        width: 25%;
+    }
+    .content-area {
+        width: 95%;
+	}
+	#navigation{
+		width:auto;
+		padding:10px 0;
+	}
+	.nivo-caption{
+		width:60% !important;
+		background-color:transparent !important;
+		overflow:visible !important;
+	}
+	.services-box{
+		padding:0 15px 22px !important;
+	}
+	#navigation{ width:95%;}
+	.sitenav ul li a{ padding:10px 15px;}
+}
+
+@media screen and (max-width: 980px){	
+.nav-inner {
+width:95%;
+position:relative;
+}
+
+#navigation {
+position:relative;
+-ms-transform:skewX(0deg);
+-webkit-transform:skewX(0deg);
+transform:skewX(0deg);
+background-color:transparent!important;
+top:0;
+width:80%;
+padding:0;
+}
+
+.toggleMenu {
+display:block;
+padding-left:10px!important;
+}
+
+.sitenav {
+float:none;
+top:0;
+position:relative;
+overflow-x:hidden;
+margin:0;
+}
+
+.header_right .sitenav ul {
+color:#fff;
+width:100%!important;
+float:none!important;
+background-color:#483b33;
+margin:0;
+padding:0;
+}
+
+.sitenav ul li {
+border-top:1px #000 solid;
+display:block;
+float:none;
+text-align:left;
+border-right:none;
+}
+
+.header_right .sitenav ul li a {
+display:block;
+color:#fff;
+text-align:left;
+font-weight:400;
+padding:5px 10px;
+}
+
+.sitenav ul li a {
+-ms-transform:skewX(0deg);
+-webkit-transform:skewX(0deg);
+transform:skewX(0deg);
+text-align:left;
+padding:8px 12px;
+}
+
+.sitenav ul li a:hover,.sitenav ul li.current_page_item a,.sitenav ul li:hover a.parent {
+color:#c49454!important;
+background:none!important;
+}
+
+.sitenav ul li ul,.sitenav ul li ul ul {
+display:block!important;
+}
+
+.sitenav ul li ul li a:before {
+content:"\00BB \00a0";
+}
+
+.sitenav ul li ul li {
+border-bottom:1px solid transparent!important;
+border-right:none;
+}
+
+.sitenav ul li ul li a {
+padding-left:20px!important;
+}
+
+.sitenav ul li ul li ul li a {
+padding-left:30px!important;
+}
+
+.sitenav ul li ul li ul li ul li a {
+padding-left:40px!important;
+}
+
+.sitenav ul li:hover > ul {
+background:none!important;
+width:auto!important;
+display:block;
+position:relative!important;
+left:0;
+right:0;
+top:0;
+-ms-transform:skewX(0deg);
+-webkit-transform:skewX(0deg);
+transform:skewX(0deg);
+}
+
+.sitenav ul li:hover ul li ul,.sitenav ul li:hover ul li:hover > ul,.sitenav ul li:hover ul li:hover > ul li ul {
+background:transparent!important;
+display:block;
+position:relative!important;
+right:0;
+left:0;
+top:0;
+}
+
+.sitenav ul li:hover ul li:hover ul,.sitenav ul li:hover ul li:hover ul li:hover ul {
+left:0!important;
+}
+
+.get_a_quote {
+float:none;
+}
+.get_a_quote a {
+    -ms-transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    transform: skewX(0deg);
+    display: block;
+    font: 700 15px 'Montserrat';
+    line-height: normal;
+    padding: 10px 15px;
+    line-height: normal;
+    color: #ffffff;
+	margin-top:10px;
+	}
+}
+@media screen and (max-width:767px) {
+	.get_a_quote {
+float:none;
+margin-top:20px;
+}
+
+.get_a_quote a {
+-ms-transform:skewX(0deg);
+-webkit-transform:skewX(0deg);
+transform:skewX(0deg);
+text-align:center;
+line-height:46px;
+}
+
+#header {
+padding-bottom:20px;
+}
+
+.main-container {
+padding:40px 0;
+}
+
+.services-box {
+padding-bottom:25px;
+}
+	
+}

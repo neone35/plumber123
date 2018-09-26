@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Carpenter\n"
+"POT-Creation-Date: 2018-09-13 14:24+0530\n"
+"PO-Revision-Date: 2018-09-13 14:24+0530\n"
+"Last-Translator: \n"
+"Language-Team: Flythemes Team <support@flythemes.net>\n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_attr_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+
+#: 404.php:14
+msgid "<strong>404</strong> Not Found"
+msgstr ""
+
+#: 404.php:17
+msgid ""
+"Looks like you have taken a wrong turn.....<br />Do Not worry... it happens "
+"to the best of us."
+msgstr ""
+
+#: comments.php:70
+msgid "Comments are closed."
+msgstr ""
+
+#: content-page.php:19
+#: content-single.php:29
+#: content.php:37
+#: image.php:65
+msgid "Pages:"
+msgstr ""
+
+#: content-page.php:24
+#: content-single.php:41
+#: image.php:33
+#: image.php:70
+msgid "Edit"
+msgstr ""
+
+#: content-single.php:34
+#: content.php:14
+msgid ", "
+msgstr ""
+
+#: content-single.php:35
+msgid " | Tags: "
+msgstr ""
+
+#: content.php:29
+msgid "Read More &raquo;"
+msgstr ""
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: footer.php:15
+msgid "Y"
+msgstr ""
+
+#: footer.php:15
+msgid ". Powered by WordPress"
+msgstr ""
+
+#: front-page.php:46
+msgid "Read More"
+msgstr ""
+
+#: functions.php:32
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:45
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:46
+msgid "Appears on blog page sidebar"
+msgstr ""
+
+#: header.php:59
+msgid "Menu"
+msgstr ""
+
+#: header.php:66
+msgid "Get a Quote"
+msgstr ""
+
+#: image.php:23
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: image.php:38
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: image.php:39
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: search.php:15
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sidebar.php:12
+msgid "Archives"
+msgstr ""
+
+#: sidebar.php:18
+msgid "Meta"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:31
+msgid "Select color from here."
+msgstr ""
+
+#: inc/customizer.php:45
+msgid "Select background color for header."
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Select background color for navigation bar."
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Select background color for footer."
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid ""
+"Recommended image size (1420x567). Slider will work only when you select the "
+"static front page."
+msgstr ""
+
+#: inc/customizer.php:96
+msgid "Select page for slide one:"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Select page for slide two:"
+msgstr ""
+
+#: inc/customizer.php:120
+msgid "Select page for slide three:"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Add text for slider button."
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Check this to hide slider."
+msgstr ""
+
+#: inc/customizer.php:154
+msgid "Contact Details"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Add your contact info here."
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Add email address and phone number here."
+msgstr ""
+
+#: inc/customizer.php:185
+msgid "Add street and city here."
+msgstr ""
+
+#: inc/customizer.php:204
+msgid "Add link for get a quote button."
+msgstr ""
+
+#: inc/customizer.php:212
+msgid "Homepage Boxes"
+msgstr ""
+
+#: inc/customizer.php:214
+msgid ""
+"Select pages for homepage boxes. This section will be displayed only when "
+"you select the static front page."
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Select page for first box:"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Select page for second box:"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Select page for third box:"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Check this to hide section."
+msgstr ""
+
+#: inc/template-tags.php:34
+#, php-format
+msgid "<span class=\"screen-reader-text\"></span> %s"
+msgstr ""

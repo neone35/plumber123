@@ -1,0 +1,34 @@
+#search_id-search-date-input {
+	float: left;
+	height: 28px;
+	margin: 0 4px 0 0;
+}
+
+#tabs {
+	margin-top: 10px;
+}
+
+.tabs-text-textarea {
+	height: 100%;
+	width: 100%;
+}
+
+#tabs-preview,
+#tabs-text {
+	height: 335px;
+	overflow: auto;
+}
+
+#thickbox-footer-close {
+	margin-top: 10px;
+}
+
+#thickbox-footer-close:hover {
+	background: #eee;
+	color: #666;
+}
+
+#TB_ajaxContent {
+	padding-bottom: 10px !important; /* Override the default Thickbox css values. */
+	overflow: hidden !important; /* Override the default Thickbox css values. */
+}

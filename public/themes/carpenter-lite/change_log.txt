@@ -1,0 +1,6 @@
+Version 1.0
+i) Intial version Release
+
+Version 1.1
+i) Changed theme url.
+

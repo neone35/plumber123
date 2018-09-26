@@ -1,0 +1,9 @@
+.DS_Store
+.env
+.vagrant
+Homestead.json
+Homestead.yaml
+node_modules
+npm-debug.log
+Vagrantfile
+vendor
