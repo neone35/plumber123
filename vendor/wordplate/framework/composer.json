@@ -1,0 +1,55 @@
+{
+    "name": "wordplate/framework",
+    "description": "The WordPlate framework",
+    "keywords": ["wordplate", "framework", "wordpress", "boilerplate"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@vinkla.com"
+        },
+        {
+            "name": "Chris Andersson",
+            "email": "hello@puredazzle.se"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "ext-mbstring": "*",
+        "composer/installers": "^1.0",
+        "illuminate/support": "5.2.*",
+        "johnpbloch/wordpress": "^4.0",
+        "roots/wp-password-bcrypt": "^1.0",
+        "symfony/var-dumper": "^3.0",
+        "vlucas/phpdotenv": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.2"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "WordPlate\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "4.2-dev"
+        }
+    },
+    "suggest": {
+        "wordplate/mail": "A mail plugin for WordPlate",
+        "wordplate/multisite": "A multisite plugin for WordPlate",
+        "wordplate/plate": "A framework plugin for WordPlate",
+        "wordplate/uuid": "A UUID plugin for WordPlate"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

@@ -6,4 +6,3 @@ Homestead.yaml
 node_modules
 npm-debug.log
 Vagrantfile
-vendor
