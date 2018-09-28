@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "697e0f67b7d8acdaa665d5709f8ed1c8",
+    "content-hash": "fe3779e921c6eef3e9b229ecb6ea230d",
     "packages": [
         {
             "name": "composer/installers",
@@ -1224,26 +1224,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/hide-plugin-updates-notifications/"
-        },
-        {
-            "name": "wpackagist-plugin/shortcode-ui",
-            "version": "0.7.3",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/shortcode-ui/",
-                "reference": "tags/0.7.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/shortcode-ui.0.7.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/shortcode-ui/"
         },
         {
             "name": "wpackagist-plugin/shortcodes-ultimate",

@@ -1275,28 +1275,6 @@
         "homepage": "https://wordpress.org/plugins/hide-plugin-updates-notifications/"
     },
     {
-        "name": "wpackagist-plugin/shortcode-ui",
-        "version": "0.7.3",
-        "version_normalized": "0.7.3.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/shortcode-ui/",
-            "reference": "tags/0.7.3"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/shortcode-ui.0.7.3.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/shortcode-ui/"
-    },
-    {
         "name": "wpackagist-plugin/shortcodes-ultimate",
         "version": "5.0.6",
         "version_normalized": "5.0.6.0",

@@ -11,7 +11,6 @@
         "wpackagist-plugin/wp-migrate-db": "^1.0",
         "wpackagist-theme/understrap": "^0.8.7",
         "wpackagist-theme/carpenter-lite": "^1.1",
-        "wpackagist-plugin/shortcode-ui": "^0.7.3",
         "wpackagist-plugin/shortcodes-ultimate": "^5.0",
         "wpackagist-plugin/wordpress-seo": "^8.3",
         "wpackagist-plugin/wp-maintenance-mode": "^2.2",
