@@ -1275,28 +1275,6 @@
         "homepage": "https://wordpress.org/plugins/hide-plugin-updates-notifications/"
     },
     {
-        "name": "wpackagist-plugin/hide-updates",
-        "version": "1.0",
-        "version_normalized": "1.0.0.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/hide-updates/",
-            "reference": "tags/1.0"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/hide-updates.1.0.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/hide-updates/"
-    },
-    {
         "name": "wpackagist-plugin/shortcode-ui",
         "version": "0.7.3",
         "version_normalized": "0.7.3.0",

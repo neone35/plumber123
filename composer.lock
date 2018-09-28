@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "35834a98aedccf7922409c3ee331c6e8",
+    "content-hash": "697e0f67b7d8acdaa665d5709f8ed1c8",
     "packages": [
         {
             "name": "composer/installers",
@@ -1224,26 +1224,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/hide-plugin-updates-notifications/"
-        },
-        {
-            "name": "wpackagist-plugin/hide-updates",
-            "version": "1.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/hide-updates/",
-                "reference": "tags/1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/hide-updates.1.0.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/hide-updates/"
         },
         {
             "name": "wpackagist-plugin/shortcode-ui",
