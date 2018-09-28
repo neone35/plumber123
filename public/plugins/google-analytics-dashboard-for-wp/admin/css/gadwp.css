@@ -1,0 +1,221 @@
+/**
+ * Author: Alin Marcu 
+ * Author URI: https://deconf.com
+ * Copyright 2013 Alin Marcu 
+ * License: GPLv2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/* Tab navigation */
+#gadwp-events, #gadwp-custom, #gadwp-advanced, #gadwp-exclude, #gadwp-config, #gadwp-tmdatalayervars, #gadwp-tmintegration, #gadwp-integration, #gadwp-tmadvanced {
+	display: none;
+}
+
+/* Options pages */
+table.gadwp-settings-options {
+	padding-left: 10px;
+	width: 100%;
+}
+
+.gadwp-settings-options td {
+	padding: 0px 5px 5px 5px;
+}
+
+td.gadwp-settings-title, td.info {
+	width: 140px;
+	padding-left: 20px;
+}
+
+td.gadwp-settings-title-s {
+	width: 300px;
+}
+
+.gadwp-help {
+	padding-left: 15px;
+}
+
+td.gadwp-settings-info {
+	padding-bottom: 15px;
+}
+
+td.gadwp-settings-title label {
+	font-size: 1.1em;
+}
+
+.gadwp-title {
+	float: left;
+	margin-right: 10px;
+	margin-top: 2px;
+	clear: left;
+}
+
+.gadwp-desc {
+	font-size: 1em;
+}
+
+.gadwp-top {
+	vertical-align: top;
+}
+
+pre.gadwp-settings-logdata {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+pre.gadwp-settings-logdata span{
+	color: #b30000;
+	font-weight: 800;
+}
+
+table.gadwp-settings-logdata {
+	table-layout:fixed;
+	width: 100%;
+}	
+
+
+td.gadwp-settings-roles {
+	padding-bottom: 15px;
+}
+
+#ga_speed_samplerate, #ga_user_samplerate, #ga_realtime_pages {
+	width: 50px;
+}
+
+#gapi-access-code {
+	color: red !important;
+}
+
+#poststuff.gadwp h2 {
+	padding-bottom: 0;
+	font-size: 19.5px;
+	font-weight: normal;
+	padding: 0;
+	margin: 20px 0 15px 0;
+}
+
+#poststuff.gadwp h2.nav-tab-wrapper {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 0;
+}
+
+/* Options pages ON/OFF Switch */
+.button-primary.gadwp-settings-switchoo {
+	position: relative;
+	width: 50px;
+	float: left;
+	border: none;
+	padding: 0;
+	height: 22px;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+
+input.gadwp-settings-switchoo-checkbox {
+	display: none;
+}
+
+.gadwp-settings-switchoo-label {
+	display: block;
+	overflow: hidden;
+	cursor: pointer;
+	background: transparent;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	text-shadow: none;
+}
+
+.gadwp-settings-switchoo-inner {
+	width: 200%;
+	margin-left: -100%;
+	border-radius: 2px;
+	-moz-transition: margin 0.2s ease-in 0s;
+	-webkit-transition: margin 0.2s ease-in 0s;
+	-o-transition: margin 0.2s ease-in 0s;
+	transition: margin 0.2s ease-in 0s;
+}
+
+.gadwp-settings-switchoo-inner:before, .gadwp-settings-switchoo-inner:after {
+	float: left;
+	width: 50%;
+	font-weight: normal;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	text-shadow: none;
+}
+
+.gadwp-settings-switchoo-inner:before {
+	content: "On";
+	padding-left: 5px;
+	border-bottom: none;
+	/*	background-color: #00a0d2;
+	color: #fff;  /* inherit from button props */
+}
+
+.gadwp-settings-switchoo-inner:after {
+	content: "Off";
+	padding-right: 5px;
+	background-color: #ddd;
+	text-align: right;
+}
+
+.gadwp-settings-switchoo-switch {
+	width: 22px;
+	height: 22px;
+	background: #fff;
+	color: #ddd;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 27px;
+	-moz-transition: all 0.2s ease-in 0s;
+	-webkit-transition: all 0.2s ease-in 0s;
+	-o-transition: all 0.2s ease-in 0s;
+	transition: all 0.2s ease-in 0s;
+}
+
+.gadwp-settings-switchoo-switch:hover {
+	color: #aaa;
+	border-color: #aaa;
+}
+
+.gadwp-settings-switchoo-switch:after {
+	margin: 0;
+	outline: 0;
+	display: inline-block;
+	font: 400 16px/16px dashicons;
+	content: "\f228";
+	padding: 3px 0 0 3px;
+	text-align: left;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.gadwp-settings-switchoo-checkbox:checked+.gadwp-settings-switchoo-label .gadwp-settings-switchoo-inner {
+	margin-left: 0;
+}
+
+.gadwp-settings-switchoo-checkbox:checked+.gadwp-settings-switchoo-label .gadwp-settings-switchoo-switch {
+	right: 0px;
+}
+
+.switch-desc {
+	float: left;
+	margin-left: 10px;
+	line-height: 20px;
+}

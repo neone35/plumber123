@@ -1231,17 +1231,17 @@
         "homepage": "https://wordpress.org/plugins/flamingo/"
     },
     {
-        "name": "wpackagist-plugin/google-sitemap-generator",
-        "version": "4.0.9",
-        "version_normalized": "4.0.9.0",
+        "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
+        "version": "5.3.5",
+        "version_normalized": "5.3.5.0",
         "source": {
             "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/google-sitemap-generator/",
-            "reference": "tags/4.0.9"
+            "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
+            "reference": "tags/5.3.5"
         },
         "dist": {
             "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/google-sitemap-generator.4.0.9.zip",
+            "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.5.zip",
             "reference": null,
             "shasum": null
         },
@@ -1250,7 +1250,29 @@
         },
         "type": "wordpress-plugin",
         "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/google-sitemap-generator/"
+        "homepage": "https://wordpress.org/plugins/google-analytics-dashboard-for-wp/"
+    },
+    {
+        "name": "wpackagist-plugin/hide-plugin-updates-notifications",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/hide-plugin-updates-notifications/",
+            "reference": "trunk"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/hide-plugin-updates-notifications.zip?timestamp=1435038274",
+            "reference": null,
+            "shasum": null
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/hide-plugin-updates-notifications/"
     },
     {
         "name": "wpackagist-plugin/hide-updates",
@@ -1273,28 +1295,6 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/hide-updates/"
-    },
-    {
-        "name": "wpackagist-plugin/jetpack",
-        "version": "6.5",
-        "version_normalized": "6.5.0.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/jetpack/",
-            "reference": "tags/6.5"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/jetpack.6.5.zip",
-            "reference": null,
-            "shasum": null
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/jetpack/"
     },
     {
         "name": "wpackagist-plugin/shortcode-ui",

@@ -18,18 +18,18 @@
         "wpackagist-plugin/wp-maintenance-mode": "^2.2",
         "koodimonni-language/core-lt_lt": "^4.9",
         "wpackagist-plugin/akismet": "^4.0",
-        "wpackagist-plugin/jetpack": "^6.5",
         "wpackagist-plugin/contact-form-7": "^5.0",
         "wpackagist-plugin/flamingo": "^1.9",
         "wpackagist-plugin/bogo": "^3.2",
         "wpackagist-plugin/tinymce-advanced": "^4.8",
-        "wpackagist-plugin/google-sitemap-generator": "^4.0",
         "wpackagist-plugin/duplicate-post": "^3.2",
         "wpackagist-plugin/wp-smushit": "^2.8",
         "koodimonni-language/core-ru_ru": "^4.9",
         "wpackagist-plugin/so-widgets-bundle": "^1.13",
         "wpackagist-plugin/siteorigin-panels": "^2.8",
-        "wpackagist-plugin/fakerpress": "^0.4.11"
+        "wpackagist-plugin/fakerpress": "^0.4.11",
+        "wpackagist-plugin/hide-plugin-updates-notifications": "^1.0",
+        "wpackagist-plugin/google-analytics-dashboard-for-wp": "^5.3"
     },
     "repositories": [
         {
