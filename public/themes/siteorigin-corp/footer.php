@@ -48,7 +48,7 @@
 					
 					$credit_text = apply_filters(
 						'siteorigin_corp_footer_credits',
-						sprintf( esc_html__( 'Crafted with love by %s.', 'siteorigin-corp' ), '<a href="https://siteorigin.com/">SiteOrigin</a>' )
+						sprintf( esc_html__( 'Crafted by %s with SiteOrigin.', 'siteorigin-corp' ), '<a href="https://github.com/neone35/">Artur Maslov</a>' )
 					);
 
 					if ( ! empty( $credit_text ) ) {
